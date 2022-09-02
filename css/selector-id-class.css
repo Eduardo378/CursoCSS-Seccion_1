@@ -1,0 +1,18 @@
+/*selector id del h1 en el html*/
+#titulo{
+	color:crimson;
+	text-align:center;
+}
+/*la clase se empieza con un punto y posteriormente el nombre de la clase que establecimos*/
+/*la clase se debe empezar por letras, no se puede empezar por números, y si vamos a escribir varias palabras a la clase,
+se recomienta usar - o _ (centrar-texto, centrar_texto)*/
+.centrar{
+	text-align:center;
+}
+
+.tamaño_texto{
+	font-size:20px;
+}
+/*con los id solo se pueden usar en un unico elemento html*/
+/*con las clases podemos asignar más de una clase a un elemento y compartir esa clase con otros elementos que 
+requieran de sus estilos asignados*/

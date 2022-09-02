@@ -1,0 +1,14 @@
+*{
+	background-color:ghostwhite;
+	color:cornflowerblue;
+}
+
+#titulo{
+	text-align:center;
+	color:crimson;
+}
+
+.centrar{
+	text-align:center;
+	font-size:20px;
+}

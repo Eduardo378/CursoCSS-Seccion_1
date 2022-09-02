@@ -1,0 +1,19 @@
+/*con esto podemos agrupar los elementos html para darles estilos (cada elemento es llamado respectivamente separado por una
+	coma)*/
+	/*todo elemento fuera de esta agrupación no recibirá estilos*/
+h1, h2, div{
+	color:crimson;
+	text-align:center;
+}
+/*
+las subclases son para los posibles elementos dentro de otro elemento y elementos exclusivos, por ejemplo, se les dará
+estilos a los p que solamente tenga la clase de centrar*/
+
+p.centrado{
+	text-align:center;
+	font-size:20px;
+	color:green;
+}
+
+/*esta subclase se aplican a todos los elementos que contengan su clase*/
+/*en este caso esta subclase solo se les va a aplicar a los elementos de tipo párrafo que contengan la clase centrado*/
